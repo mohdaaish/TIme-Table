@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Time Table</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            margin-top: 25px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #333366;
+            color: white;
+        }
+
+        .break {
+            background-color: #ffdf99;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #eaeaea;
+        }
+
+        .heading {
+            background-color: #333366;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>COLLEGE TIME TABLE</h1>
+
+    <table>
+
+        <tr>
+            <th>Day / Time</th>
+            <th>9:00 - 10:00</th>
+            <th>10:00 - 11:00</th>
+            <th>11:00 - 11:30</th>
+            <th>11:30 - 12:30</th>
+            <th>12:30 - 1:30</th>
+            <th>1:30 - 2:30</th>
+        </tr>
+
+        <tr>
+            <th>Monday</th>
+            <td>Financial Accounting</td>
+            <td>Business Law</td>
+            <td rowspan="5" class="break">BREAK</td>
+            <td>Business Mathematics</td>
+            <td>Marketing</td>
+            <td>Computer Applications</td>
+        </tr>
+
+        <tr>
+            <th>Tuesday</th>
+            <td>Business Law</td>
+            <td>Marketing</td>
+            <td>Financial Accounting</td>
+            <td>English</td>
+            <td>Business Mathematics</td>
+        </tr>
+
+        <tr>
+            <th>Wednesday</th>
+            <td>Marketing</td>
+            <td>Computer Applications</td>
+            <td>Business Law</td>
+            <td>Financial Accounting</td>
+            <td>English</td>
+        </tr>
+
+        <tr>
+            <th>Thursday</th>
+            <td>English</td>
+            <td>Financial Accounting</td>
+            <td>Marketing</td>
+            <td>Business Mathematics</td>
+            <td>Business Law</td>
+        </tr>
+
+        <tr>
+            <th>Friday</th>
+            <td>Business Mathematics</td>
+            <td>English</td>
+            <td>Computer Applications</td>
+            <td>Marketing</td>
+            <td>Financial Accounting</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
